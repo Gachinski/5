@@ -24,7 +24,7 @@
                 <div class="accordion">
                     <h3 class="block-title "><img src="img/expand.svg" class="arrow" id='arrow' alt="">
                         Предупреждения</h3>
-                    <p class="description"> запуске уведомления не отключаются, сообщений будет
+                    <p class="description">При запуске уведомления не отключаются, сообщений будет
                         много.</p>
                 </div>
                 <div class="accordion">
@@ -55,7 +55,6 @@
         for (let i = 0; i < accardion.length; i++) {
             accardion[i].addEventListener("click", function () {
 
-                console.log(acc[i]);
                 if (acc[i].style.display == 'block') {
                     acc[i].style.display = 'none';
                     arrow[i].style.transform = 'rotate(0deg)';
